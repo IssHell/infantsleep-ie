@@ -33,53 +33,53 @@ export default function ComingSoonView() {
 
       <Image
         alt="comingsoon"
-        src="/assets/illustrations/illustration_comingsoon.svg"
+        src="/assets/images/home/logo_white.webp"
         sx={{
           my: 3,
           mx: 'auto',
-          maxWidth: 320,
+          maxWidth: 1000,
         }}
       />
 
-      <Stack
-        direction="row"
-        justifyContent="center"
-        divider={<Box sx={{ mx: { xs: 1, sm: 2.5 } }}>:</Box>}
-        sx={{ typography: 'h2' }}
-      >
-        <TimeBlock label="Days" value={days} />
+      {/*<Stack*/}
+      {/*  direction="row"*/}
+      {/*  justifyContent="center"*/}
+      {/*  divider={<Box sx={{ mx: { xs: 1, sm: 2.5 } }}>:</Box>}*/}
+      {/*  sx={{ typography: 'h2' }}*/}
+      {/*>*/}
+      {/*  <TimeBlock label="Days" value={days} />*/}
 
-        <TimeBlock label="Hours" value={hours} />
+      {/*  <TimeBlock label="Hours" value={hours} />*/}
 
-        <TimeBlock label="Minutes" value={minutes} />
+      {/*  <TimeBlock label="Minutes" value={minutes} />*/}
 
-        <TimeBlock label="Seconds" value={seconds} />
-      </Stack>
+      {/*  <TimeBlock label="Seconds" value={seconds} />*/}
+      {/*</Stack>*/}
 
-      <TextField
-        fullWidth
-        hiddenLabel
-        placeholder="Enter your email"
-        InputProps={{
-          endAdornment: (
-            <InputAdornment position="end">
-              <Button variant="contained" size="large" color="inherit">
-                Notify
-              </Button>
-            </InputAdornment>
-          ),
-          sx: { pr: 0.5 },
-        }}
-        sx={{ my: 5 }}
-      />
+      {/*<TextField*/}
+      {/*  fullWidth*/}
+      {/*  hiddenLabel*/}
+      {/*  placeholder="Enter your email"*/}
+      {/*  InputProps={{*/}
+      {/*    endAdornment: (*/}
+      {/*      <InputAdornment position="end">*/}
+      {/*        <Button variant="contained" size="large" color="inherit">*/}
+      {/*          Notify*/}
+      {/*        </Button>*/}
+      {/*      </InputAdornment>*/}
+      {/*    ),*/}
+      {/*    sx: { pr: 0.5 },*/}
+      {/*  }}*/}
+      {/*  sx={{ my: 5 }}*/}
+      {/*/>*/}
 
-      <Stack direction="row" justifyContent="center">
-        {_socials.map((social) => (
-          <IconButton key={social.value}>
-            <Iconify icon={social.icon} sx={{ color: social.color }} />
-          </IconButton>
-        ))}
-      </Stack>
+      {/*<Stack direction="row" justifyContent="center">*/}
+      {/*  {_socials.map((social) => (*/}
+      {/*    <IconButton key={social.value}>*/}
+      {/*      <Iconify icon={social.icon} sx={{ color: social.color }} />*/}
+      {/*    </IconButton>*/}
+      {/*  ))}*/}
+      {/*</Stack>*/}
     </>
   );
 }
