@@ -12,11 +12,11 @@ type Props = {
 };
 
 export default function CompactLayout({ children }: Props) {
-  const isOffset = useOffSetTop();
+  // const isOffset = useOffSetTop();
 
   return (
     <>
-      {/*<Header isOffset={isOffset} />*/}
+      {/* <Header isOffset={isOffset} /> */}
 
       <Container component="main">
         <Stack

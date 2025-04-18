@@ -1,11 +1,11 @@
-import ReactLightbox from 'yet-another-react-lightbox';
+import ReactLightbox from 'yet-another-react-lightbox'; // eslint-disable-line
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import Video from 'yet-another-react-lightbox/plugins/video';
 import Captions from 'yet-another-react-lightbox/plugins/captions';
 import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
-import { useLightboxState } from 'yet-another-react-lightbox/core';
+import { useLightboxState } from 'yet-another-react-lightbox/core'; // eslint-disable-line
 // @mui
 import { Typography } from '@mui/material';
 //
