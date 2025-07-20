@@ -1,27 +1,14 @@
-// next
-import Head from 'next/head';
-// layouts
-import MainLayout from 'src/layouts/main';
-// sections
-import HomeView from 'src/sections/_home/view';
 
-// ----------------------------------------------------------------------
+import React from 'react';
+import AppLayout from '@/components/AppLayout';
+import { AppProvider } from '@/contexts/AppContext';
 
-HomePage.getLayout = (page: React.ReactElement) => <MainLayout>{page}</MainLayout>;
-
-// ----------------------------------------------------------------------
-
-export default function HomePage() {
+const Index: React.FC = () => {
   return (
-    <>
-      <Head>
-          <title>INFANT SLEEP | Gentle Support for Families and Growing Minds</title>
-          <style>
-              @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
-          </style>
-      </Head>
-
-      <HomeView />
-    </>
+    <AppProvider>
+      <AppLayout />
+    </AppProvider>
   );
-}
+};
+
+export default Index;
