@@ -15,7 +15,10 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>INFANT SLEEP | Gentle Support for Families and Growing Minds</title>
+          <title>INFANT SLEEP | Gentle Support for Families and Growing Minds</title>
+          <style>
+              @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+          </style>
       </Head>
 
       <HomeView />

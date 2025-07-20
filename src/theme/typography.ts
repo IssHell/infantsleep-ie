@@ -44,6 +44,8 @@ export const secondaryFont = Barlow({
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
+export const fontYellowTail = '"Yellowtail", cursive';
+
 // ----------------------------------------------------------------------
 
 // LEARN MORE
@@ -131,6 +133,12 @@ const typography = {
     fontSize: pxToRem(14),
     textTransform: 'capitalize',
   },
+  yellowTail: {
+    fontFamily: fontYellowTail,
+    fontSize: pxToRem(30),
+    textTransform: "none",
+    ...responsiveFontSizes({ sm: 26, md: 30, lg: 32 }),
+  }
 } as const;
 
 export default typography;

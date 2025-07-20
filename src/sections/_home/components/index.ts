@@ -1,5 +1,6 @@
 export { default as HomeHero } from './HomeHero';
 export { default as HomeFAQs } from './HomeFAQs';
+export { default as HomeCalmCapable } from './HomeCalmCapable';
 export { default as HomeNewStart } from './HomeNewStart';
 export { default as HomeCombination } from './HomeCombination';
 export { default as HomeForDesigner } from './HomeForDesigner';

@@ -7,6 +7,7 @@ import {Box} from "@mui/material";
 import PricingHome from '../../pricing/home';
 import {
     HomeHero,
+    HomeCalmCapable,
     HomeFAQs,
     HomeNewStart,
     HomeForDesigner,
@@ -15,6 +16,7 @@ import {
     HomeFeatureHighlights,
     HomeFlexibleComponents,
 } from '../components';
+import {CareerLandingForRecruiters} from "../../_career/landing";
 
 // ----------------------------------------------------------------------
 
@@ -25,6 +27,10 @@ export default function HomeView() {
                 <ScrollProgress/>
 
                 <HomeHero/>
+
+                <CareerLandingForRecruiters />
+
+                <HomeCalmCapable />
 
                 <HomeNewStart/>
 

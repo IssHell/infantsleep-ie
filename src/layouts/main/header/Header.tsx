@@ -58,27 +58,6 @@ export default function Header({ headerOnDark }: Props) {
         }}
       >
         <Container sx={{ height: 1, display: 'flex', alignItems: 'center' }}>
-          <Box sx={{ lineHeight: 0, position: 'relative' }}>
-            <Logo />
-
-            <Link href="https://zone-docs.vercel.app/changelog" target="_blank" rel="noopener">
-              <Label
-                color="info"
-                sx={{
-                  ml: 0.5,
-                  px: 0.5,
-                  top: -14,
-                  left: 60,
-                  height: 20,
-                  fontSize: 11,
-                  cursor: 'pointer',
-                  position: 'absolute',
-                }}
-              >
-                v2.0
-              </Label>
-            </Link>
-          </Box>
 
           {isMdUp && <NavDesktop data={navConfig} />}
 
@@ -89,21 +68,16 @@ export default function Header({ headerOnDark }: Props) {
             alignItems="center"
             justifyContent="flex-end"
           >
-            <Stack spacing={1} direction="row" alignItems="center">
-              <Searchbar />
-
-              <SettingsDrawer />
-            </Stack>
 
             {isMdUp && (
               <Button
                 variant="contained"
                 color="inherit"
-                href={paths.zoneStore}
-                target="_blank"
+                href={paths.pages}
+                // target="_blank"
                 rel="noopener"
               >
-                Buy Now
+                Dublin Infant Sleep Care →
               </Button>
             )}
           </Stack>

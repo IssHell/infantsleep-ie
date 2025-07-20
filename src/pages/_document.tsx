@@ -35,10 +35,10 @@ const Meta = () => (
     <meta name="theme-color" content={palette('light').primary.main} />
     <meta
       name="description"
-      content="The ZONE is built on top of MUI, a powerful library that provides flexible, customizable, and easy-to-use components."
+      content="Offering premiere baby sleep consultant services to Dublin, Ireland parents and parents across the country, ensuring restful nights and happier families everywhere."
     />
-    <meta name="keywords" content="react,material,kit,application,landing & corporate,template" />
-    <meta name="author" content="ZONE UI Kit" />
+    <meta name="keywords" content="infant,sleep,consulting,dublin,ireland,parenting" />
+    <meta name="author" content="Victor Olvera" />
   </>
 );
 
